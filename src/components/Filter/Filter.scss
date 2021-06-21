@@ -1,0 +1,19 @@
+.filter {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.filter-input {
+  display: block;
+  width: 155px;
+  margin-top: 5px;
+  border: 2px solid silver;
+  font-size: 12px;
+
+  &:hover,
+  &:focus {
+    outline: none;
+    border: 2px solid rgb(9, 238, 96);
+  }
+}

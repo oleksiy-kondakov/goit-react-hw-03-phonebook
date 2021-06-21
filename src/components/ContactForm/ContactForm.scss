@@ -1,0 +1,45 @@
+.form {
+  width: 400px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.form-field {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.form-input {
+  display: block;
+  width: 155px;
+  margin-top: 5px;
+  border: 2px solid silver;
+  font-size: 12px;
+
+  &:hover,
+  &:focus {
+    outline: none;
+    border: 2px solid rgb(9, 238, 96);
+  }
+}
+
+.add-contact-button {
+  min-width: 80px;
+  padding: 2px 3px;
+  border: 2px solid silver;
+  border-radius: 5px;
+  font-size: 12px;
+  background-color: white;
+
+  &:hover,
+  &:focus {
+    outline: none;
+    border: 2px solid rgb(9, 238, 96);
+  }
+
+  &:active {
+    background-color: rgb(9, 238, 96);
+  }
+}
