@@ -43,6 +43,7 @@ class ContactForm extends Component {
             value={name}
             required
             placeholder="John Smith"
+            pattern="^[a-zA-Zа-яА-Я]+(([' -][a-zA-Zа-яА-Я ])?[a-zA-Zа-яА-Я]*)*$"
             onChange={this.handleInputChange}
           ></input>
         </label>
@@ -56,7 +57,7 @@ class ContactForm extends Component {
             value={number}
             required
             placeholder="111-11-11"
-            pattern="[0-9]{3}-[0-9]{2}-[0-9]{2}"
+            pattern="\+?\d{1,4}?[-.\s]?\(?\d{1,3}?\)?[-.\s]?\d{1,4}[-.\s]?\d{1,4}[-.\s]?\d{1,9}"
             onChange={this.handleInputChange}
           ></input>
         </label>
